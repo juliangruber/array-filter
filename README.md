@@ -3,6 +3,8 @@
 
 `Array#filter` for older browsers.
 
+[![testling badge](https://ci.testling.com/juliangruber/array-filter.png)](https://ci.testling.com/juliangruber/array-filter)
+
 [![build status](https://secure.travis-ci.org/juliangruber/array-filter.png)](http://travis-ci.org/juliangruber/array-filter)
 
 ## Usage
