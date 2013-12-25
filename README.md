@@ -3,6 +3,8 @@
 
 `Array#filter` for older browsers.
 
+[![build status](https://secure.travis-ci.org/juliangruber/array-filter.png)](http://travis-ci.org/juliangruber/array-filter)
+
 ## Usage
 
 ```js
