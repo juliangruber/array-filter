@@ -3,7 +3,7 @@ var test = require('tape');
 
 test('skip over holes', function(t) {
   var arr = new Array(5);
-  delete arr.filter;
+  arr.filter = undefined;
   var res = filter(arr, function(el) {
     return false;
   });

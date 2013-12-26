@@ -3,7 +3,7 @@ var test = require('tape');
 
 test('filter', function(t) {
   var arr = [1, 2, 3, 4, 5];
-  delete arr.filter;
+  arr.filter = undefined;
   var even = filter(arr, function(el) {
     return el % 2 == 0;
   });
