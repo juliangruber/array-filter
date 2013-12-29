@@ -19,6 +19,18 @@ console.log(filter(array, function (el, i, arr) {
 // => []
 ```
 
+## API
+
+### filter(arr, fn[, self])
+
+Return an array with elements of `arr` for which `fn` returns a truthy value. `fn` is called with
+
+* `el`: The current element
+* `i`: The element's index
+* `arr`: The whole array
+
+Optionally pass in `self` as the `this` value for `fn`.
+
 ## Installation
 
 With [npm](http://npmjs.org) do
