@@ -1,7 +1,7 @@
 var filter = require('..');
 var test = require('tape');
 
-test('this', function(t) {
+test('self', function(t) {
   var arr = [1];
   arr.filter = undefined;
   var self = {};
