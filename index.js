@@ -15,11 +15,9 @@ module.exports = function (arr, fn, self) {
   if ('function' != typeof fn) throw new TypeError;
   var ret = [];
   for (var i = 0; i < arr.length; i++) {
-    if (!hasOwn.call(arr, i)) continue;
+    if (!(i in arr)) continue;
     var val = arr[i];
     if (fn.call(self, val, i, arr)) ret.push(val);
   }
   return ret;
 };
-
-var hasOwn = Object.prototype.hasOwnProperty;
