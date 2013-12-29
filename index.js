@@ -6,6 +6,7 @@
  * @param {Function} fn
  * @param {Object=} self
  * @return {Array}
+ * @throw TypeError
  */
 
 module.exports = function (arr, fn, self) {
@@ -15,7 +16,8 @@ module.exports = function (arr, fn, self) {
   var ret = [];
   for (var i = 0; i < arr.length; i++) {
     if (!hasOwn.call(arr, i)) continue;
-    if (fn.call(self, arr[i], i, arr)) ret.push(arr[i]);
+    var val = arr[i];
+    if (fn.call(self, val, i, arr)) ret.push(val);
   }
   return ret;
 };
