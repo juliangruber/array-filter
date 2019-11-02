@@ -42,6 +42,12 @@ $ npm install array-filter
 
 Then bundle for the browser with [browserify](https://github.com/substack/browserify).
 
+## Security contact information
+
+To report a security vulnerability, please use the
+[Tidelift security contact](https://tidelift.com/security).
+Tidelift will coordinate the fix and disclosure.
+
 ## License
 
 (MIT)
