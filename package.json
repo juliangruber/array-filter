@@ -8,6 +8,9 @@
   },
   "homepage": "https://github.com/juliangruber/array-filter",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "tape test/*.js"
   },
