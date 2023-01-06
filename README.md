@@ -6,8 +6,6 @@
 [![build status](https://secure.travis-ci.org/juliangruber/array-filter.png)](http://travis-ci.org/juliangruber/array-filter)
 [![downloads](https://img.shields.io/npm/dm/array-filter.svg)](https://www.npmjs.org/package/array-filter)
 
-[![testling badge](https://ci.testling.com/juliangruber/array-filter.png)](https://ci.testling.com/juliangruber/array-filter)
-
 ## Usage
 
 ```js
